@@ -1,0 +1,103 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.second {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    background-color: grey;
+}
+
+.second .side-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.second img {
+    width: 300px;
+    height: auto;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+.text {
+    text-align: center;
+}
+
+.third img {
+    width: 200px;
+    height: 130px;
+}
+
+.fourth {
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+
+/* .quote {
+
+} */
+
+.source {
+    align-self: flex-end;
+    text-align: end;
+}
+
+.fifth {
+    background-color: lightblue;
+    margin: 100px;
+    display: flex;
+    gap: 100px;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+
+.sixth {
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}

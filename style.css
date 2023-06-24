@@ -1,5 +1,5 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -8,9 +8,17 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: grey;
+    background-color: #1F2937;
+    padding: 0 50px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-shrink: 0;
+    margin-right: 15px;
 }
 
 ul {
@@ -20,29 +28,74 @@ ul {
     padding: 0;
 }
 
+ul li {
+    flex-shrink: 0;
+}
+
+.header a,
+.side-text .subtext {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .second {
     display: flex;
     padding: 50px;
     align-items: center;
-    background-color: grey;
+    background-color: #1F2937;
+    gap: 10px;
 }
 
 .second .side-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 30px;
+}
+
+.second .title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 300px;
+}
+
+.second button {
+    border-color: #3882F6;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    border-radius: 5px;
+    border-color: white;
+    border-style: solid;
+    width: 130px;
+    flex-shrink: 0;
+    fill: none;
+    padding: 12px;
+    align-self: center;
 }
 
 .second img {
-    width: 300px;
+    width: 50%;
     height: auto;
+    min-width: 200px;
 }
 
 .third {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: aqua;
+}
+
+.third .top {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 .images {
@@ -70,34 +123,54 @@ ul {
 }
 
 .fourth {
-    background-color: grey;
+    background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 100px;
 }
 
-/* .quote {
-
-} */
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
 
 .source {
     align-self: flex-end;
     text-align: end;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .fifth {
-    background-color: lightblue;
+    background-color: #3882F6;
     margin: 100px;
     display: flex;
-    gap: 100px;
     padding: 20px 50px;
     justify-content: space-between;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.fifth .head {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.fifth .side-text {
+    flex-shrink: 1;
+    flex-basis: 400px;
+    flex-grow: 1;
+}
+
+.fifth button {
+    margin: auto;
 }
 
 .sixth {
     text-align: center;
     padding: 20px;
-    background-color: black;
-    color: white;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
